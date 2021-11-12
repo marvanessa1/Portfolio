@@ -232,6 +232,7 @@ nav a:focus {
     padding: 10px;
     margin: 20px;
     background-color: white;
+    align-content: center;
 }
 
 .Resume h2 {
@@ -241,12 +242,19 @@ nav a:focus {
     color: white;
 }
 
+.Resume a {
+    padding: 10px;
+    margin: 20px;
+    color: black;
+}
+
 @media screen and (max-width: 768px) {
    main,
+   nav,
    .About,
    .work,
    .Contact,
-   nav {
+   .Resume {
        flex-direction: column;
    }
 
