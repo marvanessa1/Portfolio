@@ -64,20 +64,23 @@ nav a:focus {
 
 .About{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 10px;
     margin: 20px;
     background-color: white;
 }
 
 .About h2 {
+    text-align: center;
     padding: 10px;
     margin: 20px;
     background: linear-gradient(black, white);
     color: white;
 }
 
-.About img {
+
+
+.profilepic{
     margin:20px;
     max-width: 250px;
     max-height: 300px;
@@ -115,6 +118,28 @@ nav a:focus {
     border-color: black;
 }
 
+
+.ProjectOne header {
+    padding: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.ProjectOne img {
+    width: 100%;
+}
+
+.ProjectTwo header {
+    padding: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.ProjectTwo img {
+    width: 100%;
+}
 .Contact {
     display: flex;
     padding: 10px;
@@ -152,6 +177,7 @@ nav a:focus {
 
 @media screen and (max-width: 768px) {
    main,
+   .About,
    .work,
    .Contact,
    nav {
