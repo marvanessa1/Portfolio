@@ -118,7 +118,10 @@ nav a:focus {
     border-color: black;
 }
 
-
+.ProjectOne {
+    padding: 10px;
+    margin: 20px;
+}
 .ProjectOne header {
     padding: 10px;
     background: black;
@@ -130,6 +133,10 @@ nav a:focus {
     width: 100%;
 }
 
+.ProjectTwo {
+    padding: 10px;
+    margin: 20px;
+}
 .ProjectTwo header {
     padding: 10px;
     background: black;
@@ -140,6 +147,38 @@ nav a:focus {
 .ProjectTwo img {
     width: 100%;
 }
+
+.ProjectThree {
+    padding: 10px;
+    margin: 20px;
+}
+.ProjectThree header {
+    padding: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.ProjectThree img {
+    width: 100%;
+}
+
+.ProjectFour {
+    padding: 10px;
+    margin: 20px;
+}
+
+.ProjectFour header {
+    padding: 10px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.ProjectFour img {
+    width: 100%;
+}
+
 .Contact {
     display: flex;
     padding: 10px;
@@ -161,6 +200,32 @@ nav a:focus {
     border-color: black;
 }
 
+.Linkedin {
+    padding: 10px;
+    margin: 20px;
+}
+
+.Linkedin img {
+    width: 100%;
+}
+
+.Email {
+    padding: 10px;
+    margin: 20px;
+}
+
+.Email img {
+    width: 100%;
+}
+
+.Instagram {
+    padding: 10px;
+    margin: 20px;
+}
+
+.Instagram img {
+    width: 100%;
+}
 .Resume {
     display: flex;
     padding: 10px;
@@ -182,6 +247,10 @@ nav a:focus {
    .Contact,
    nav {
        flex-direction: column;
+   }
+
+   .Contact a {
+       flex: 1  1 100%;
    }
 }
 
