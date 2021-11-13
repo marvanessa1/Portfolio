@@ -100,6 +100,7 @@ nav a:focus {
 
 .work {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     margin: 20px;
     background-color: white;
@@ -110,13 +111,6 @@ nav a:focus {
     margin: 20px;
     background: linear-gradient(black,white);
     color: white
-}
-
-.work > div {
-    margin: 20px;
-    padding: 20px;
-    border-style: solid;
-    border-color: black;
 }
 
 .ProjectOne {
@@ -182,6 +176,7 @@ nav a:focus {
 
 .Contact {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     margin: 20px;
     background-color: white;
