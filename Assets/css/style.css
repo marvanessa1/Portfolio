@@ -140,73 +140,14 @@ h2 {
 .Contact img {
     justify-content: center;
 }
-/* .Contact {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 20px;
-    background-color: white;
-}
 
-.Contact h2 {
-    padding:10px;
-    margin: 20px;
-    background: linear-gradient(black,white);
-    color: white
-}
-
-.Contact > div {
-    margin: 20px;
-    padding: 20px;
-    border-style: solid;
-    border-color: black;
-}
-
-.Linkedin {
-    padding: 10px;
-    margin: 20px;
-}
-
-.Linkedin img {
-    width: 100%;
-}
-
-.Email {
-    padding: 10px;
-    margin: 20px;
-}
-
-.Email img {
-    width: 100%;
-}
-
-.Instagram {
-    padding: 10px;
-    margin: 20px;
-}
-
-.Instagram img {
-    width: 100%;
-} */
 .Resume {
-    display: flex;
+    display: column;
+    text-align: center;
+    text-decoration: none;
     padding: 10px;
     margin: 20px;
     background-color: white;
-    align-content: center;
-}
-
-.Resume h2 {
-    padding: 10px;
-    margin: 20px;
-    background: linear-gradient(black, white);
-    color: white;
-}
-
-.Resume a {
-    padding: 10px;
-    margin: 20px;
-    color: black;
 }
 
 @media screen and (max-width: 768px) {
