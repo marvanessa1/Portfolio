@@ -90,6 +90,10 @@ a:hover {
     border-color: black;
 }
 
+.BioText {
+    flex-direction: column;
+}
+
 .workSection {
     display: column;
     justify-content: space-evenly;
