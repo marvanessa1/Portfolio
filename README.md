@@ -17,9 +17,9 @@ The screenshots below demonstrate the web application's apperence and funtionali
 Screenshot image
 
 
-[Portfolio Screenshot](Assets/images/screenshot.png)
+![Portfolio Screenshot](.Assets/images/screenshot.png)
    
 Screenshot GIF
 
-[Portfolio Screenshot GIF](Assets/images/screenshot.gif)
+![Portfolio Screenshot GIF](./Assets/images/screenshot.gif)
 
