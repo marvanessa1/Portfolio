@@ -25,8 +25,8 @@ nav {
     display: flex;
     justify-content: center;
     background-color: white;
-    padding: 0px 10px 10px 10px;
-    margin: 0px 20px 20px 20px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
 }
 
 nav a {
@@ -47,16 +47,15 @@ nav a:focus {
     border-color:goldenrod;
 }
 .banner {
-    height: 300px;
-    width: 100%;
-    padding: 10px;
-    margin: 20px;
-    background-image: url("../images/Banner.jpg");
+    padding: 0px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
+    height: 398px;
+    background: url("../images/Banner.jpg");
     background-repeat: no-repeat;
-    background-origin: fixed;
-    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    
 }
-
 .main {
     background-color: white;
     padding: 1rem;
@@ -114,6 +113,7 @@ h2 {
     color: white;
     text-align: center;
     text-decoration: none;
+    max-width: 320px;
 }
 
 .work img {
@@ -166,6 +166,12 @@ h2 {
        width: 100%;
    }
 
-   
+   .banner {
+       height: 180px;
+       background-size: contain;
+       position: relative;
+   }
 }
+
+
 
