@@ -62,41 +62,46 @@ nav a:focus {
     padding: 1rem;
 }
 
-.About{
-    display: flex;
+.AboutSection {
+    display: column;
     justify-content: center;
     padding: 10px;
     margin: 20px;
     background-color: white;
 }
 
-.About h2 {
+.AboutSection h2 {
     text-align: center;
-    padding: 10px;
-    margin: 20px;
-    background: linear-gradient(black, white);
-    color: white;
 }
 
+.About {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
 
+.About p {
+    padding: 10px 10px 0px 10px;
+    margin: 20px 20px 0px 20px;
+}
 
-.profilepic{
+.About img {
+    object-fit: contain;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+}
+
+/* .profilepic{
     justify-content: center;
     margin:20px;
-    max-width: 250px;
+    max-width: 225px;
     max-height: 300px;
     width: auto;
     height: auto;
     display: flex;
     min-height: 207px;
-}
-
-.about p {
-    padding: 20px;
-    margin: 10px;
-    border-style: solid;
-    border-color: black;
-}
+} */
 
 .work {
     display: flex;
