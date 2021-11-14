@@ -41,11 +41,6 @@ nav a:hover {
     background-color: rgba(241, 153, 182, 0.479);
     box-shadow: 0 0 10px black inset;
 }
-
-nav a:focus {
-    outline:none;
-    border-color:goldenrod;
-}
 .banner {
     padding: 0px 10px 0px 10px;
     margin: 0px 20px 0px 20px;
@@ -61,17 +56,20 @@ nav a:focus {
     padding: 1rem;
 }
 
+h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
 .AboutSection {
     display: column;
     justify-content: center;
     padding: 10px;
     margin: 20px;
     background-color: white;
-}
-
-h2 {
-    text-align: center;
-    font-size: 200%;
 }
 
 .About {
