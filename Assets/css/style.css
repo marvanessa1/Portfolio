@@ -1,184 +1,64 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.main {
+    background-color: white;
+    color: black;
+}
     
-body {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3;
-    background-color: rgb(223, 223, 223);
-}
-
-h2 {
-    text-align: center;
-    font-size: 200%;
-}
-
-/* Styling for header */
-header {
-    text-align: center;
-    padding: 10px 10px 0px 10px;
-    margin: 20px 20px 0px 20px;
-    background-color: white;
+.btn-secondary:hover {
+    background-color: #20c997 !important;
     color: black;
-}
-
-h1 {
-    font-size: 300%;
-}
-
-/* Styling for navigation */
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    padding: 0px 10px 0px 10px;
-    margin: 0px 20px 0px 20px;
-}
-
-nav a {
-    color: black;
-    padding: 14px 20px;
     text-decoration: none;
-    text-align: center;
-}
-/* Styling so that when user hovers over navigatin links, the box containing the links increases in size and the box changes color to pink and has a black box shadow  */
-nav a:hover {
-    font-size: 175%;
-    background-color: rgba(241, 153, 182, 0.479);
-    box-shadow: 0 0 10px black inset;
+    font-size: 100%;
+
 }
 
-/* Banner image */
-.banner {
-    padding: 0px 10px 0px 10px;
-    margin: 0px 20px 0px 20px;
-    height: 398px;
-    background: url("../images/Banner.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    
+.btn-secondary:active {
+    color: rgb(198, 29, 240);
+    background-color: transparent;
+    text-decoration: underline;
 }
 
-a:hover {
-    transform: scale(1.2);
+.nav-item:hover {
+    background-color: #20c997 !important;
+    color: black;
+    text-decoration: none;
+    font-size: 100%;
+
 }
 
-/* Styling for 1st major section, About. Overall section has a column flex display with h1 as the 1st box on top centered and acompanying items all being in a second box below.  Acompanying items are then in flex display row.  When screen size decreases, all items in section stack up on top of one another */
-.AboutSection {
-    display: column;
-    justify-content: center;
-    padding: 10px;
-    margin: 20px;
-    background-color: white;
+.nav-item:active {
+    color: rgb(198, 29, 240);
+    background-color: transparent;
+    text-decoration: underline;
 }
 
-.About {
-    display: flex;
-    padding: 10px;
-    margin: 20px;
-}
-
-.About p {
-    padding: 10px 10px 0px 10px;
-    margin: 20px 20px 0px 20px;
-}
-
-.About img {
+.about-me img {
     object-fit: contain;
-    width: 100%;
+    height: 275px;
     border-style: solid;
     border-color: black;
 }
 
-.BioText {
-    flex-direction: column;
-}
-
-/*  Styling for 2nd major section, work. Overall section has a column flex display with h1 as the 1st box on top centered and acompanying items all being in a second box below.  Acompanying items are then in flex display row.  When screen size decreases, all items in section stack up on top of one another */ 
-.workSection {
-    display: column;
-    justify-content: space-evenly;
-    padding: 10px;
-    margin: 20px;
-    background-color: white;
-}
-
 .work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 10px;
-    margin: 20px;
-}
-
-.work a {
     background-color: black;
     color: white;
-    text-align: center;
-    text-decoration: none;
-    max-width: 320px;
+}
+.carousel-item img {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-custom {
+    background-color: rgba(0, 0, 0, 0.637);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.work img {
-    object-fit: contain;
-    width: 100%;
-}
-
-/*  Styling for 3rd major section, contact me. Overall section has a column flex display with h1 as the 1st box on top centered and acompanying items all being in a second box below.  Acompanying items are then in flex display row.  When screen size decreases, all items in section stack up on top of one another */ 
-.ContactSection {
-    display: column;
-    justify-content: center;
-    padding: 10px;
-    margin: 20px;
-    background-color: white;
-}
-
-.Contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 10px;
-    margin: 20px;
-}
-
-.Contact img {
-    justify-content: center;
-}
-
-.Resume {
-    display: column;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
-    margin: 20px;
-    background-color: white;
-}
-
-/* Styling for the the screen size decreases.  Overall major sections stack on top of one another */
 @media screen and (max-width: 768px) {
-   main,
-   nav,
-   .About,
-   .work,
-   .Contact,
-   .Resume {
-       flex-direction: column;
-       align-items: center;
-   }
 
-   .work a {
-       object-fit: contain;
-       width: 100%;
-   }
-}
-
-@media screen and (max-width: 992px) {
-    .banner {
-        height: 180px;
-        background-size: cover;
-        position: relative;
-    }
-}
-
+ }
+ 
