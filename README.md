@@ -8,7 +8,7 @@ With a "minimalist" theme in mind, background, body, and font colors where kept 
 This online portfolio will continue to change and evolve as new coding skills are gained throughout the corse.
 
 ## Deployed Application
-URL of deployed application [Vanessa's Online Portfolio] (https://marvanessa1.github.io/Portfolio/).
+URL of deployed application [Vanessa's Online Portfolio](https://marvanessa1.github.io/Portfolio/).
 
 ## Portfolio Mock-Up
 
